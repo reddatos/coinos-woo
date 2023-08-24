@@ -1,7 +1,7 @@
 # coinos-woo
 **BTC Lightning Payment via Coinos.io**
 
-The code represents a WooCommerce payment gateway plugin for processing Bitcoin and Lightning Network payments through the coinos.io platform.
+The provided code constitutes a WooCommerce payment gateway plugin, enabling the seamless processing of Bitcoin and Lightning Network payments via the coinos.io platform. 
 
 *Please note that you will need a coinos.io account to use the this plugin.*
 
@@ -9,7 +9,7 @@ The code represents a WooCommerce payment gateway plugin for processing Bitcoin 
 - Coinos documentation: https://coinos.io/docs
 - Coinos support: https://t.me/coinoswallet
 
-This plugnin and its code have no official support from Coinos.io. Feel free to collaborate to improve the plugin features.
+**Disclaimer:** This plugin was designed to facilitate the integration of Coinos services into e-commerce websites (WordPress and Woocommerce). Please note that this plugin and its code do not have official support from Coinos.io. We welcome collaboration to enhance its features.
 
 <!-- PROJECT EXAMPLE -->
 <br />
@@ -19,6 +19,7 @@ This plugnin and its code have no official support from Coinos.io. Feel free to 
   </a>
 </div>
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Let's break down the key components and functionalities of this plugin:
 
