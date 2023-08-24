@@ -11,6 +11,15 @@ This plugnin and its code have no official support from Coinos.io. Feel free to 
 - Coinos documentation: https://coinos.io/docs
 - Coinos support: https://t.me/coinoswallet
 
+<!-- PROJECT EXAMPLE -->
+<br />
+<div align="center">
+  <a href="https://github.com/reddatos/coinos-woo">
+    <img src="example.png" alt="Logo">
+  </a>
+</div>
+
+
 ## Let's break down the key components and functionalities of this plugin:
 
 ### Initialization and Configuration:
