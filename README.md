@@ -4,13 +4,14 @@
 
 The provided code constitutes a WooCommerce payment gateway plugin, enabling the seamless processing of Bitcoin and Lightning Network payments via the coinos.io wallet platform. 
 
-#### Before installing the plugin, please note that you will need a coinos.io wallet account to use it. You can get your coinos wallet visiting coinos.io official website. ####
+#### Prior to installing the plugin, please be aware that you'll require a coinos.io wallet account to use it. Get your coinos.io wallet by visiting the official coinos.io website. ####
 
-- Coinos official website: https://coinos.io/
+- Coinos website: https://coinos.io/
 - Coinos documentation: https://coinos.io/docs
 - Coinos support: https://t.me/coinoswallet
 
-#### *Disclaimer:* Please note that this plugin and its code do not have official support from Coinos.io. This plugin was designed to facilitate the integration of Coinos services into e-commerce websites (WordPress and WooCommerce). ####
+### Disclaimer: ###
+Please note that this plugin and its code do not have official support from Coinos.io. This plugin was designed to facilitate the integration of Coinos.io wallet services into e-commerce websites (WordPress and WooCommerce).
 
 We welcome collaboration to enhance its features.
 
@@ -95,6 +96,15 @@ The plugin triggers WooCommerce email notifications to inform customers and admi
 ## Summary
 
 This plugin integrates the coinos.io payment gateway into WooCommerce, allowing customers to pay using Bitcoin and Lightning Network. It handles payment processing, generates QR codes, updates order statuses, and sends email notifications to keep customers and administrators informed about the payment process and order fulfillment.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- DISCLAIMER -->
+## Disclaimer
+
+Please note that this plugin and its code do not have official support from Coinos.io. This plugin was designed to facilitate the integration of Coinos services into e-commerce websites (WordPress and WooCommerce).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
 ## License
