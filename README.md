@@ -1,3 +1,4 @@
+
 # coinos-woo
 **BTC Lightning Payment via Coinos.io**
 
@@ -15,12 +16,12 @@ The provided code constitutes a WooCommerce payment gateway plugin, enabling the
 <br />
 <div align="center">
   <a href="https://github.com/reddatos/coinos-woo">
-    <img src="example.png" alt="Logo" width="auto" height="400">
+    <img src="example2.png" alt="Logo" width="auto" height="400">
   </a>
 </div>
 <div align="center">
   <a href="https://github.com/reddatos/coinos-woo">
-    <img src="example2.png" alt="Logo" width="auto" height="400">
+    <img src="example.png" alt="Logo" width="auto" height="400">
   </a>
 </div>
 
