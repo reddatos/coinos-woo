@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Plugin Name: BTC Lightning Payment via Coinos.io (Reddatos)
+ * Plugin Name: BTC Lightning Payment via Coinos.io (Unofficial)
  * Plugin URI: https://reddatos.com
  * Author Name: Reddatos
  * Author URI: https://reddatos.com
