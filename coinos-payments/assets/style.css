@@ -1,0 +1,98 @@
+.pay_order_box {
+  text-align: center;
+  border: 1px solid rgba(7, 36, 86, 0.25);
+  border-radius: 0.75rem;
+  max-width: 350px;
+  padding: 1rem 2rem;
+  margin: 2rem auto;
+  box-shadow: 0 6px 20px 0 rgba(7, 36, 86, 0.25);
+}
+
+.pay_order_details {
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-align: center;
+  margin: 10px 0px 0px 0px !important;
+}
+
+.pay_order_amount {
+  font-size: 0.9rem;
+  font-weight: 200;
+  margin: 0px !important;
+  padding: 0px;
+  text-align: center;
+}
+
+.pay_order_instructions {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.pay_order_logo {
+  display: unset;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.pay_order_qrcode {
+  display: block;
+  margin: 0 auto;
+}
+
+.pay_invoice {
+  display: -webkit-inline-box;
+  margin: 0 auto;
+}
+
+a.pay_order_text {
+  display: block;
+  color: #000;
+  font-size: 0.85rem;
+  text-transform: lowercase;
+  text-decoration: none;
+  margin-top: 1rem;
+  padding: 0.65rem;
+  transition: 0.2s;
+}
+
+a.pay_order_text:hover {
+  color: #000;
+}
+
+.pay_order_paid {
+  display: block;
+  color: #000 !important;
+  font-size: 0.85rem !important;
+  text-transform: uppercase !important;
+  text-decoration: none;
+  font-weight: 500;
+  margin-top: 1rem !important;
+  padding: 0.65rem !important;
+  border: 1px solid rgba(44, 44, 44, 0.75) !important;
+  transition: 0.2s;
+}
+
+.pay_order_paid:hover {
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff !important;
+  background-color: #f7931a !important;
+  border: 1px solid #f7931a !important;
+}
+
+.order-status.status-completed {
+  background: #d7f8a7 !important;
+  color: #0c942b !important;
+}
+
+.order-status.status-cancelled {
+  background: #ffadad !important;
+  color: #3c0808 !important;
+}
+
+.woocommerce-error {
+  text-align: center !important;
+  border-radius: 0.75rem !important;
+  box-shadow: 0 6px 20px 0 rgba(7, 36, 86, 0.075) !important;
+}
