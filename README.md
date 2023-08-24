@@ -2,15 +2,19 @@
 # coinos-woo
 **BTC Lightning Payment via Coinos.io**
 
-The provided code constitutes a WooCommerce payment gateway plugin, enabling the seamless processing of Bitcoin and Lightning Network payments via the coinos.io platform. 
+The provided code constitutes a WooCommerce payment gateway plugin, enabling the seamless processing of Bitcoin and Lightning Network payments via the coinos.io wallet platform. 
 
-*Please note that you will need a coinos.io account to use the this plugin.*
+#### Before installing the plugin, please note that you will need a coinos.io wallet account to use it. You can get your coinos wallet visiting coinos.io official website. ####
 
 - Coinos official website: https://coinos.io/
 - Coinos documentation: https://coinos.io/docs
 - Coinos support: https://t.me/coinoswallet
 
-**Disclaimer:** This plugin was designed to facilitate the integration of Coinos services into e-commerce websites (WordPress and Woocommerce). Please note that this plugin and its code do not have official support from Coinos.io. We welcome collaboration to enhance its features.
+#### *Disclaimer:* Please note that this plugin and its code do not have official support from Coinos.io. This plugin was designed to facilitate the integration of Coinos services into e-commerce websites (WordPress and WooCommerce). ####
+
+We welcome collaboration to enhance its features.
+
+## Screenshots
 
 <!-- PROJECT EXAMPLE -->
 <br />
@@ -27,7 +31,14 @@ The provided code constitutes a WooCommerce payment gateway plugin, enabling the
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Let's break down the key components and functionalities of this plugin:
+## Installation
+1. Upload the plugin folder to the ‘/wp-content/plugins/’ directory.
+2. Activate the plugin through the ‘Plugins’ menu in WordPress.
+3. That’s it! you can now configure the plugin by going to WooCommerce > Setttings > Payment tab.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Components and functionalities of this plugin:
 
 ### Initialization and Configuration:
 
