@@ -1,16 +1,17 @@
-
 # coinos-woo
+
 **BTC Lightning Payment via Coinos.io**
 
-The provided code constitutes a WooCommerce payment gateway plugin, enabling the seamless processing of Bitcoin and Lightning Network payments via the coinos.io wallet platform. 
+The provided code constitutes a WooCommerce payment gateway plugin, enabling the seamless processing of Bitcoin and Lightning Network payments via the coinos.io wallet platform.
 
-#### Prior to installing the plugin, please be aware that you'll require a coinos.io wallet account to use it. Get your coinos.io wallet by visiting the official coinos.io website. ####
+#### Prior to installing the plugin, please be aware that you'll require a coinos.io wallet account to use it. Get your coinos.io wallet by visiting the official coinos.io website.
 
-- Coinos website: https://coinos.io/
-- Coinos documentation: https://coinos.io/docs
-- Coinos support: https://t.me/coinoswallet
+- Coinos website: <a href="https://coinos.io" target="_blank">https://coinos.io/</a>
+- Coinos documentation: <a href="https://coinos.io/docs" target="_blank">https://coinos.io/docs</a>
+- Coinos support: <a href="https://t.me/coinoswallet" target="_blank">https://t.me/coinoswallet</a>
 
-### Disclaimer: ###
+### Disclaimer:
+
 Please note that this plugin and its code do not have official support from Coinos.io. This plugin was designed to facilitate the integration of Coinos.io wallet services into e-commerce websites (WordPress and WooCommerce).
 
 We welcome collaboration to enhance its features.
@@ -20,19 +21,16 @@ We welcome collaboration to enhance its features.
 <!-- PROJECT EXAMPLE -->
 <br />
 <div align="center">
-  <a href="https://github.com/reddatos/coinos-woo">
     <img src="example2.png" alt="Logo" width="auto" height="400">
-  </a>
 </div>
 <div align="center">
-  <a href="https://github.com/reddatos/coinos-woo">
     <img src="example.png" alt="Logo" width="auto" height="400">
-  </a>
 </div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Installation
+
 1. Upload the plugin folder to the ‘/wp-content/plugins/’ directory.
 2. Activate the plugin through the ‘Plugins’ menu in WordPress.
 3. That’s it! you can now configure the plugin by going to WooCommerce > Setttings > Payment tab.
@@ -100,6 +98,7 @@ This plugin integrates the coinos.io payment gateway into WooCommerce, allowing 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- DISCLAIMER -->
+
 ## Disclaimer
 
 Please note that this plugin and its code do not have official support from Coinos.io. This plugin was designed to facilitate the integration of Coinos services into e-commerce websites (WordPress and WooCommerce).
@@ -107,6 +106,7 @@ Please note that this plugin and its code do not have official support from Coin
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
+
 ## License
 
 Distributed under the GNU GPL-2.0 License. See `LICENSE.txt` for more information.
