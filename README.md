@@ -6,9 +6,9 @@ The provided code constitutes a WooCommerce payment gateway plugin, enabling the
 
 #### Prior to installing the plugin, please be aware that you'll require a coinos.io wallet account to use it. Get your coinos.io wallet by visiting the official coinos.io website.
 
-- Coinos website: <a href="https://coinos.io" target="_blank">https://coinos.io/</a>
-- Coinos documentation: <a href="https://coinos.io/docs" target="_blank">https://coinos.io/docs</a>
-- Coinos support: <a href="https://t.me/coinoswallet" target="_blank">https://t.me/coinoswallet</a>
+- Coinos website: <a href="https://coinos.io" target="_new">https://coinos.io/</a>
+- Coinos documentation: <a href="https://coinos.io/docs" target="_new">https://coinos.io/docs</a>
+- Coinos support: <a href="https://t.me/coinoswallet" target="_new">https://t.me/coinoswallet</a>
 
 ### Disclaimer:
 
