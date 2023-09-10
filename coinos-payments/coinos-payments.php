@@ -1,12 +1,12 @@
 <?php
 
 /**
- * Plugin Name: BTC Lightning Payment via Coinos.io (Unofficial)
+ * Plugin Name: BTC Lightning Payment via Coinos.io (Reddatos)
  * Plugin URI: https://reddatos.com
  * Author Name: Reddatos
  * Author URI: https://reddatos.com
  * Description: The easiest way to get started with bitcoin. A free web wallet and payment page for everyone.
- * Version: 0.1.1
+ * Version: 0.1.2
  * License: 0.1.0
  * License URL: http://www.gnu.org/licenses/gpl-2.0.txt
  * text-domain: coinos-pay-woo
@@ -19,7 +19,7 @@ if ( !defined( 'ABSPATH' ) ) {
 
 
 if ( !defined( 'RDCPG_PLUGIN_VERSION' ) ) {
-    define( 'RDCPG_PLUGIN_VERSION', '0.1.1' );
+    define( 'RDCPG_PLUGIN_VERSION', '0.1.2' );
 }
 if ( !defined( 'RDCPG_PLUGIN_URL' ) ) {
     define( 'RDCPG_PLUGIN_URL', plugin_dir_url( __FILE__ ) );
@@ -682,6 +682,15 @@ function coinos_payment_init()
         }
     }
 }
+
+// Plugin Settings link
+add_filter( 'plugin_action_links_' . plugin_basename(__FILE__), 'apd_settings_link' );
+function apd_settings_link( array $links ) {
+    $url = get_admin_url() . "admin.php?page=wc-settings&tab=checkout&section=coinos_payment";
+    $settings_link = '<a href="' . $url . '">' . __('Settings', 'coinos-pay-woo') . '</a>';
+      $links[] = $settings_link;
+    return $links;
+  }
 
 // Deal with unavailable order in WooCommerce
 function redirect_unavailable_order_to_home() {
