@@ -21,10 +21,10 @@ We welcome collaboration to enhance its features.
 <!-- PROJECT EXAMPLE -->
 <br />
 <div align="center">
-    <img src="example2.png" alt="Logo" width="auto" height="400">
+    <img src="screenshot2.png" alt="Logo" width="auto" height="400">
 </div>
 <div align="center">
-    <img src="example.png" alt="Logo" width="auto" height="400">
+    <img src="screenshot.png" alt="Logo" width="auto" height="400">
 </div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
