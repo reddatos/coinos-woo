@@ -1,0 +1,18 @@
+/* CSS for the container div */
+.container {
+    display: flex;
+    justify-content: space-between;
+    /* Distribute columns evenly */
+}
+
+/* CSS for each column */
+.btc-dashboard {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+    background-color: var(--wc-primary-text);
+}
+
+.btc-dashboard .column p {
+    line-height: 12px;
+}
