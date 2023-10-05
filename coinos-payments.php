@@ -193,7 +193,7 @@ if ( version_compare( phpversion(), '7.2', '<' ) ) {
 	return;
 }
 
-// We require WP version 7.2+ for the whole plugin to work.
+// We require WP version 5.2+ for the whole plugin to work.
 if ( version_compare( $GLOBALS['wp_version'], '5.2', '<' ) ) {
 
 	if ( ! function_exists( 'coinoswoo_wp_notice' ) ) {
