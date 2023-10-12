@@ -256,6 +256,7 @@ class WC_Gateway_CoinosWoo extends WC_Payment_Gateway
                 $created = $invoice['created'];
                 $currency = $invoice['currency'];
                 $hash = $invoice['hash'];
+                $id = $invoice['id'];
                 $rate = $invoice['rate'];
                 $pending = $invoice['pending'];
                 $received = $invoice['received'];
@@ -271,6 +272,7 @@ class WC_Gateway_CoinosWoo extends WC_Payment_Gateway
                     'created' => $created,
                     'currency' => $currency,
                     'hash' => $hash,
+                    'id' => $id,
                     'rate' => $rate,
                     'pending' => $pending,
                     'received' => $received,
@@ -444,6 +446,7 @@ class WC_Gateway_CoinosWoo extends WC_Payment_Gateway
             $order->update_meta_data('coinos_invoice_created', $invoice['created']);
             $order->update_meta_data('coinos_invoice_currency', $invoice['currency']);
             $order->update_meta_data('coinos_invoice_hash', $invoice['hash']);
+            $order->update_meta_data('coinos_invoice_id', $invoice['id']);
             $order->update_meta_data('coinos_invoice_rate', $invoice['rate']);
             $order->update_meta_data('coinos_invoice_pending', $invoice['pending']);
             $order->update_meta_data('coinos_invoice_received', $invoice['received']);
@@ -734,14 +737,14 @@ class WC_Gateway_CoinosWoo extends WC_Payment_Gateway
                     throw new Exception('Order #' . $request['order_id'] . ' does not exist');
                 }
         
-                // Retrieve the invoice hash from the order meta
-                $invoice_hash = $order->get_meta('coinos_invoice_hash');
+                // Retrieve the invoice ID from the order meta
+                $invoice_id = $order->get_meta('coinos_invoice_id');
         
-                if (empty($invoice_hash)) {
+                if (empty($invoice_id)) {
                     throw new Exception('Order does not have a coinos.io invoice associated');
                 }
         
-                $api_url = generate_coinos_api_url('/invoice/') . $invoice_hash;
+                $api_url = generate_coinos_api_url('/invoice/') . $invoice_id;
                 $response = wp_remote_get($api_url);
         
                 if (is_wp_error($response)) {
